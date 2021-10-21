@@ -1,9 +1,20 @@
 .comment {
     margin-top: 70px;
     &_cards {
-        display: flex;
-        justify-content: space-around;
         margin-top: 50px;
+        button {
+            &::before {
+                width: 13px !important;
+                height: 13px !important;
+                border: 1px solid #7E7D7D !important;
+                box-sizing: border-box !important;
+                border-radius: 50px !important;
+                content: '' !important;
+            }
+            &:active {
+                width: 24px 24px !important;
+            }
+        }
     }
     &_title {
         font-style: normal;
