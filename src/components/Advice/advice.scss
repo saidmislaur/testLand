@@ -1,0 +1,63 @@
+.advice {
+    margin-top: 80px;
+    &_desc {
+        text-align: center;
+        
+        h1 {
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 42px;
+            color: #000000;   
+        }
+        p {
+            font-family: 'Roboto';
+            font-size: 18px;
+            line-height: 27px;
+            width: 850px;
+            margin: 15px auto;
+            span {
+                color:  #5350FF;
+            }
+        }
+    }
+    &_infoCard {
+        margin-top: 20px;
+        padding: 12px 30px 12px 30px;
+        background: #F8F9FC;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000000;
+        }
+        img {
+            transform: rotate(0deg);
+            &.rotated {
+                transform: rotate(180deg);
+            }
+        }
+        &-text {
+            padding: 12px 30px 12px 30px;
+            p {
+                font-family: 'Roboto';
+                font-size: 18px;
+                line-height: 27px;
+                color: #000000;
+            }
+        }
+    }
+    &_info {
+        margin-top: 30px;
+        border: 2px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 30px 70px 60px ;
+    }
+}

@@ -1,0 +1,60 @@
+.comment {
+    margin-top: 70px;
+    &_cards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    &_title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &_card {
+        width: 279.85px;
+        height: 330px;
+        padding: 23px 23px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(14, 58, 82, 0.1);
+        border-radius: 5px;
+
+        &-profile {
+            display: flex;
+            align-items: center;
+            
+        }
+        &-info {
+            margin-left: 10px;
+            img {
+                width: 11.56px;
+                height: 11.83px;
+            }
+        }
+        &-name {
+            display: block;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            color: #0E3A52;
+        }
+        &-data {
+            margin-left: 60px;
+        }
+        &-text {
+            margin-top: 30px;
+
+            p {
+                font-size: 17px;
+                line-height: 16px;
+                color: #000000;
+                font-family: Roboto;
+            }
+        }
+    }
+}
