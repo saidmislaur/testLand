@@ -45,3 +45,10 @@ code {
     }
 }
 
+.slick-slide img {
+ display: inline-block !important;
+}
+.slick-arrow, .slick-next {
+  display: none !important;
+}
+

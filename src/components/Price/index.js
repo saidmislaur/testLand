@@ -6,7 +6,7 @@ const Price = () => {
         <div className="price">
             <div className="price_desc">
                 <h1>Price</h1>
-                <p>Die Preise für unseren Schlüsseldienst Köln sind niedriger als der empfohlene Mittelwert. 
+                <p>Die Preise für unseren <span>Schlüsseldienst Köln</span> sind niedriger als der empfohlene Mittelwert. 
                     Wir optimieren unsere Arbeit die ganze Zeit. Wir haben es geschafft, 
                     dass ein Durchschnittsmensch sich qualitativen Schlüsseldienst leisten kann. 
                     Der Schlüsseldienst ist etwas, worauf man nicht verzichten kann, wenn er gebraucht wird. 
