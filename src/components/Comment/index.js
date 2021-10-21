@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card';
 import './comment.scss';
 import Slide from './Slide';
 const Comment = () => {

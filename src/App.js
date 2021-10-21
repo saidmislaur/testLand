@@ -8,7 +8,7 @@ import Comment from './components/Comment';
 import Adantages from './components/Advantages/index';
 import Advice from './components/Advice/index';
 import Footer from './components/Footer';
-import Slide from './components/Comment/Slide';
+
 
 function App() {
   return (
