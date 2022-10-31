@@ -10,11 +10,31 @@ const Header = () => {
                     <img src="./img/LOGO.svg" alt="logo"/>
                     <nav>
                         <ul>
-                            <li>Startseite</li>
-                            <li>Einsatzgebiet</li>
-                            <li>Leistungen</li>
-                            <li>Über uns</li>
-                            <li>Kontakt</li>
+                            <li>
+                              <a href='.'>
+                                Startseite
+                              </a>
+                            </li>
+                            <li>
+                              <a href='.'>
+                                Einsatzgebiet
+                              </a>
+                             </li>
+                            <li>
+                              <a href='.'>
+                                Leistungen
+                              </a>
+                            </li>
+                            <li>
+                              <a href='.'>
+                                Über uns
+                              </a>
+                            </li>
+                            <li>
+                              <a href='.'>
+                                Kontakt
+                              </a>
+                            </li>
                         </ul>
                     </nav>
                     <Button />

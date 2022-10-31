@@ -30,6 +30,15 @@
                         background-color: #4058FF;
                     }
                 }
+
+                a {
+                  list-style: none;
+                  color: #000000; 
+
+                  &:hover {
+                    color: #5350FF; 
+                  }
+                }
             }
         }
     }

@@ -33,8 +33,8 @@ export default class Slide extends Component {
                 name="Jimmy H." 
                 data="6 mounth ago" 
                 text="Finally, competent service in London. Unfortunately, I had often needed a locksmith and until now had rather unpleasant experiences.
-                                                    However, London locksmith has met all of my expectations.
-                                                    The dispatcher was extremely friendly, and the locksmith seemed to know his job."
+                      However, London locksmith has met all of my expectations.
+                      The dispatcher was extremely friendly, and the locksmith seemed to know his job."
             />
           <Card 
                 name="Kian K." 
@@ -54,8 +54,8 @@ export default class Slide extends Component {
                 name="Jimmy H." 
                 data="6 mounth ago" 
                 text="Finally, competent service in London. Unfortunately, I had often needed a locksmith and until now had rather unpleasant experiences.
-                                                    However, London locksmith has met all of my expectations.
-                                                    The dispatcher was extremely friendly, and the locksmith seemed to know his job."
+                      However, London locksmith has met all of my expectations.
+                      The dispatcher was extremely friendly, and the locksmith seemed to know his job."
             />
         </Slider>
       </div>
